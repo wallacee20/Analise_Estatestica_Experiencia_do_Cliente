@@ -150,16 +150,15 @@ Ambos os testes indicam que a política nova não causou uma mudança significat
 
 ---
 
-# Resumo final
-A análise estatística dos dados mostrou que a nova política implementada não teve impacto significativo no tempo de espera nem na satisfação dos clientes. A probabilidade de um cliente esperar mais de 10 minutos é de aproximadamente 14,1%, o que pode indicar um gargalo no atendimento. Embora exista uma tendência de queda na satisfação conforme o tempo de espera aumenta, essa relação é fraca (correlação ≈ -0,10) e pouco explicativa. Recomenda-se explorar outros fatores que podem estar influenciando a satisfação, como qualidade do atendimento, ambiente físico e atendimento digital. além de revisar possíveis melhorias na operação para reduzir o tempo de espera dos casos extremos.
-
+## 💡 Resumo final
+A análise estatística dos dados mostrou que a nova política implementada não teve impacto significativo no tempo de espera nem na satisfação dos clientes. A probabilidade de um cliente esperar mais de 10 minutos é de aproximadamente 14,1%, o que pode indicar um gargalo no atendimento. Embora exista uma tendência de queda na satisfação conforme o tempo de espera aumenta, essa relação é fraca (correlação ≈ -0,10) e pouco explicativa.
 ---
 
 ## ✅ Recomendações Estratégicas
 
 1. **Redesenhar a política de atendimento**, com foco nos horários de pico.
 2. **Aumentar a equipe nos turnos críticos**, de acordo com análise do fluxo de clientes por hora.
-3. **Implementar um sistema de triagem ou caixas rápidos** para reduzir o tempo médio de espera.
+3. **Implementar um sistema de triagem ou caixas rápidos** para reduzir o tempo médio de espera, ambiente físico e atendimento digital.
 4. **Reavaliar a nova política de atendimento**, garantindo treinamento adequado dos colaboradores.
 5. **Monitoramento contínuo com dashboards analíticos**, para acompanhamento em tempo real.
 
