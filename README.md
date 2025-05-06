@@ -37,7 +37,8 @@ A análise foi realizada com base nos seguintes conjuntos de dados, coletados du
 ## 🧪 Metodologia Estatística
 
 ### 1. **Estatística Descritiva**
-![Logo](img/1.png)
+![Logo](https://github.com/wallacee20/Analise_Estatistica_Experiencia_do_Cliente/blob/main/img/1.png?raw=true)
+
 Foram calculadas **medidas de tendência central** (média, mediana) e **dispersão** (desvio padrão) para entender a distribuição do tempo de espera e da satisfação dos clientes. 
 
 - **Média tempo de espera**: ~7 minutos.
@@ -48,7 +49,7 @@ Foram calculadas **medidas de tendência central** (média, mediana) e **dispers
 ---
 
 ### 2. **Identificação de Outliers**
-![Logo](img/4.png)
+![Logo](https://github.com/wallacee20/Analise_Estatistica_Experiencia_do_Cliente/blob/main/img/4.png?raw=true)
 ### Resultado do Resultado de Outliers
 Nenhum outlier foi detectado nas variáveis analisadas (tempo_espera, satisfacao, funcionarios_turno, clientes_por_hora, politica_nova) usando o método do Intervalo Interquartil (IQR) e Z-score.
 
@@ -65,13 +66,13 @@ Nenhum outlier foi detectado nas variáveis analisadas (tempo_espera, satisfacao
 
 ### Resultado da correlação entre tempo de espera e satisfação
 
-![Logo1](img/2.png)
+![Logo](https://github.com/wallacee20/Analise_Estatistica_Experiencia_do_Cliente/blob/main/img/2.png?raw=true)
 
 - Tivemos uma correlação de -0,92 entre o tempo de espera e a satisfação dos clientes. 
 > A correlação é negativa e forte, o que significa que à medida que o tempo de espera aumenta, a satisfação dos clientes tende a diminuir significativamente.
   O valor de correlação de aproximadamente -0,92 indica uma relação linear bastante consistente entre as variáveis, sugerindo que o tempo de espera exerce influência direta e relevante na percepção de satisfação.
   Em outras palavras: clientes que esperam mais tendem claramente a se sentir menos satisfeitos, de acordo com os dados analisados.
-![Logo2](img/2_a.png)
+![Logo](https://github.com/wallacee20/Analise_Estatistica_Experiencia_do_Cliente/blob/main/img/2_a.png?raw=true)
 
 ---
 
@@ -79,7 +80,7 @@ Nenhum outlier foi detectado nas variáveis analisadas (tempo_espera, satisfacao
 
 Modelamos a relação entre tempo de espera e satisfação por meio de **regressão linear simples**:
 
-![Logo3](img/3.png)
+![Logo](https://github.com/wallacee20/Analise_Estatistica_Experiencia_do_Cliente/blob/main/img/3.png?raw=true)
 
 ### Coeficientes do Modelo:
 - Inclinação (coeficiente angular): -0.7580
@@ -102,14 +103,14 @@ Modelamos a relação entre tempo de espera e satisfação por meio de **regress
 ### 5. **Probabilidade de Espera Excedente**
 
 Probabilidade de esperar mais de 10 minutos
-![Logo4](img/6.png)
+![Logo](https://github.com/wallacee20/Analise_Estatistica_Experiencia_do_Cliente/blob/main/img/6.png?raw=true)
 
 > A probabilidade de um cliente esperar mais de 10 minutos é de aproximadamente 14,06% com base na distribuição normal ajustada.
   Já segundo o modelo exponencial, essa probabilidade é de 22,72%.
 
 ### Interpretação:
 - Com base no modelo normal, isso significa que cerca de 1 a cada 7 clientes poderá esperar mais de 10 minutos.
-![Logo5](img/6_a.png)
+![Logo](https://github.com/wallacee20/Analise_Estatistica_Experiencia_do_Cliente/blob/main/img/6_a.png?raw=true)
 > Esse valor pode ser considerado aceitável ou preocupante dependendo dos objetivos do seu serviço de atendimento.
   Por exemplo, se a sua meta for atender 90% dos clientes em até 10 minutos, o resultado do modelo normal indica que a meta está praticamente sendo atingida.
 - Por outro lado, o modelo exponencial mostra um cenário mais pessimista, sugerindo que quase 1 a cada 4 clientes pode esperar mais de 10 minutos — o que evidenciaria uma necessidade de melhoria no atendimento.
@@ -121,7 +122,7 @@ Probabilidade de esperar mais de 10 minutos
 Foram analisadas duas amostras:
 - Lojas com **política de atendimento tradicional**.
 - Lojas que implementaram a **nova política de atendimento**.
-![Logo6](img/5png.png)
+![Logo](https://github.com/wallacee20/Analise_Estatistica_Experiencia_do_Cliente/blob/main/img/5.png?raw=true)
 
 Realizamos testes estatísticos:
 ### **Teste t de Student**
@@ -133,7 +134,7 @@ Realizamos testes estatísticos:
 - Satisfação: p-valor ≈ 0.26
 > Conclusão: também sem diferença significativa — mesmo resultado do teste t.
 
-![Logo7](img/5_a.png)
+![Logo](https://github.com/wallacee20/Analise_Estatistica_Experiencia_do_Cliente/blob/main/img/5_a.png?raw=true)
 <br>
 # Interpretação
 Ambos os testes indicam que a política nova não causou uma mudança significativa em tempo de espera ou satisfação.
