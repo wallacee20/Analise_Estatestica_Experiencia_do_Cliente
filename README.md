@@ -65,13 +65,13 @@ Nenhum outlier foi detectado nas variáveis analisadas (tempo_espera, satisfacao
 
 ### Resultado da correlação entre tempo de espera e satisfação
 
-![Logo](img/2.png)
+![Logo1](img/2.png)
 
 - Tivemos uma correlação de -0,92 entre o tempo de espera e a satisfação dos clientes. 
 > A correlação é negativa e forte, o que significa que à medida que o tempo de espera aumenta, a satisfação dos clientes tende a diminuir significativamente.
   O valor de correlação de aproximadamente -0,92 indica uma relação linear bastante consistente entre as variáveis, sugerindo que o tempo de espera exerce influência direta e relevante na percepção de satisfação.
   Em outras palavras: clientes que esperam mais tendem claramente a se sentir menos satisfeitos, de acordo com os dados analisados.
-![Logo](img/2_a.png)
+![Logo2](img/2_a.png)
 
 ---
 
@@ -79,7 +79,7 @@ Nenhum outlier foi detectado nas variáveis analisadas (tempo_espera, satisfacao
 
 Modelamos a relação entre tempo de espera e satisfação por meio de **regressão linear simples**:
 
-![Logo](img/3.png)
+![Logo3](img/3.png)
 
 ### Coeficientes do Modelo:
 - Inclinação (coeficiente angular): -0.7580
@@ -102,14 +102,14 @@ Modelamos a relação entre tempo de espera e satisfação por meio de **regress
 ### 5. **Probabilidade de Espera Excedente**
 
 Probabilidade de esperar mais de 10 minutos
-![Logo](img/6.png)
+![Logo4](img/6.png)
 
 > A probabilidade de um cliente esperar mais de 10 minutos é de aproximadamente 14,06% com base na distribuição normal ajustada.
   Já segundo o modelo exponencial, essa probabilidade é de 22,72%.
 
 ### Interpretação:
 - Com base no modelo normal, isso significa que cerca de 1 a cada 7 clientes poderá esperar mais de 10 minutos.
-![Logo](img/6_a.png)
+![Logo5](img/6_a.png)
 > Esse valor pode ser considerado aceitável ou preocupante dependendo dos objetivos do seu serviço de atendimento.
   Por exemplo, se a sua meta for atender 90% dos clientes em até 10 minutos, o resultado do modelo normal indica que a meta está praticamente sendo atingida.
 - Por outro lado, o modelo exponencial mostra um cenário mais pessimista, sugerindo que quase 1 a cada 4 clientes pode esperar mais de 10 minutos — o que evidenciaria uma necessidade de melhoria no atendimento.
@@ -121,7 +121,7 @@ Probabilidade de esperar mais de 10 minutos
 Foram analisadas duas amostras:
 - Lojas com **política de atendimento tradicional**.
 - Lojas que implementaram a **nova política de atendimento**.
-![Logo](img/5png.png)
+![Logo6](img/5png.png)
 
 Realizamos testes estatísticos:
 ### **Teste t de Student**
@@ -133,7 +133,7 @@ Realizamos testes estatísticos:
 - Satisfação: p-valor ≈ 0.26
 > Conclusão: também sem diferença significativa — mesmo resultado do teste t.
 
-![Logo](img/5_a.png)
+![Logo7](img/5_a.png)
 <br>
 # Interpretação
 Ambos os testes indicam que a política nova não causou uma mudança significativa em tempo de espera ou satisfação.
