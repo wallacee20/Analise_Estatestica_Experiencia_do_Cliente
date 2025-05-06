@@ -71,7 +71,6 @@ Nenhum outlier foi detectado nas variáveis analisadas (tempo_espera, satisfacao
 > A correlação é negativa e forte, o que significa que à medida que o tempo de espera aumenta, a satisfação dos clientes tende a diminuir significativamente.
   O valor de correlação de aproximadamente -0,92 indica uma relação linear bastante consistente entre as variáveis, sugerindo que o tempo de espera exerce influência direta e relevante na percepção de satisfação.
   Em outras palavras: clientes que esperam mais tendem claramente a se sentir menos satisfeitos, de acordo com os dados analisados.
-
 ![Logo](img/2_a.png)
 
 ---
@@ -79,6 +78,7 @@ Nenhum outlier foi detectado nas variáveis analisadas (tempo_espera, satisfacao
 ### 4. **Regressão Linear**
 
 Modelamos a relação entre tempo de espera e satisfação por meio de **regressão linear simples**:
+
 ![Logo](img/3.png)
 
 ### Coeficientes do Modelo:
@@ -102,18 +102,16 @@ Modelamos a relação entre tempo de espera e satisfação por meio de **regress
 ### 5. **Probabilidade de Espera Excedente**
 
 Probabilidade de esperar mais de 10 minutos
-![Logo](img/5png.png)
+![Logo](img/6.png)
 
 > A probabilidade de um cliente esperar mais de 10 minutos é de aproximadamente 14,06% com base na distribuição normal ajustada.
   Já segundo o modelo exponencial, essa probabilidade é de 22,72%.
 
 ### Interpretação:
 - Com base no modelo normal, isso significa que cerca de 1 a cada 7 clientes poderá esperar mais de 10 minutos.
-
+![Logo](img/6_a.png)
 > Esse valor pode ser considerado aceitável ou preocupante dependendo dos objetivos do seu serviço de atendimento.
-
-Por exemplo, se a sua meta for atender 90% dos clientes em até 10 minutos, o resultado do modelo normal indica que a meta está praticamente sendo atingida.
-
+  Por exemplo, se a sua meta for atender 90% dos clientes em até 10 minutos, o resultado do modelo normal indica que a meta está praticamente sendo atingida.
 - Por outro lado, o modelo exponencial mostra um cenário mais pessimista, sugerindo que quase 1 a cada 4 clientes pode esperar mais de 10 minutos — o que evidenciaria uma necessidade de melhoria no atendimento.
 
 ---
@@ -123,24 +121,31 @@ Por exemplo, se a sua meta for atender 90% dos clientes em até 10 minutos, o re
 Foram analisadas duas amostras:
 - Lojas com **política de atendimento tradicional**.
 - Lojas que implementaram a **nova política de atendimento**.
+![Logo projeto5](img/5png.png)
 
 Realizamos testes estatísticos:
-- **Teste t de Student** (variância semelhante)
-- **Teste de Mann-Whitney** (não-paramétrico)
+### **Teste t de Student**
+- Tempo de Espera: p-valor ≈ 0.43
+- Satisfação: p-valor ≈ 0.18
+> Conclusão: nenhuma diferença estatisticamente significativa (p > 0.05).
+### **Teste de Mann-Whitney**
+- Tempo de Espera: p-valor ≈ 0.57
+- Satisfação: p-valor ≈ 0.26
+> Conclusão: também sem diferença significativa — mesmo resultado do teste t.
 
-> Resultado: **sem evidência estatisticamente significativa** de melhoria na nova política, sugerindo que:
-  - A implementação pode estar mal conduzida.
-  - O período de coleta pode ter sido curto.
-  - Outras variáveis ocultas podem interferir.
+![Logo projeto5](img/5_a.png)
+# Interpretação
+Ambos os testes indicam que a política nova não causou uma mudança significativa em tempo de espera ou satisfação.
+
 
 ---
 
 ## 📌 Conclusões
 
-- Há **alta variabilidade** no tempo de espera, com casos de espera acima de 10 minutos ocorrendo em **20%** dos registros.
-- Pequenas variações no tempo de espera **impactam diretamente na satisfação**.
+- Há **variabilidade** no tempo de espera, com casos de espera acima de 10 minutos ocorrendo em **14.1%** dos registros.
+- As variações no tempo de espera **impactam diretamente na satisfação**.
 - A **nova política ainda não apresenta resultados conclusivos** em termos de desempenho.
-- **Outliers** devem ser controlados para garantir análises consistentes.
+- **Outliers** apresentaram resultados controlados, garantindo análises consistentes.
 
 ---
 
@@ -161,7 +166,7 @@ Realizamos testes estatísticos:
 - Scikit-learn
 - Scipy
 - Matplotlib / Seaborn
-- Google Colab
+- VScode
 
 ---
 
@@ -172,7 +177,8 @@ Este projeto foi conduzido por [**AlmeidaTI**], especializado em:
 - Diagnóstico estatístico de processos operacionais
 - Modelagem preditiva e suporte à tomada de decisão
 
-📧 **Contato:** contato@suaempresa.com  
-🌐 **Website:** www.suaconsultoria.com.br
+📧 **Contato:** wallacee.almeidajj@gmail.com  
+🌐 **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/wallacee20/)
+
 
 ---
