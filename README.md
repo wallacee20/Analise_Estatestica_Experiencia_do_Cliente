@@ -64,6 +64,7 @@ Nenhum outlier foi detectado nas variáveis analisadas (tempo_espera, satisfacao
 ### 3. **Correlação**
 
 ### Resultado da correlação entre tempo de espera e satisfação
+
 ![Logo2](img/2.png)
 
 - Tivemos uma correlação de -0,92 entre o tempo de espera e a satisfação dos clientes. 
