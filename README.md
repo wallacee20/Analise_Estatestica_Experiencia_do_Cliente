@@ -37,7 +37,7 @@ A análise foi realizada com base nos seguintes conjuntos de dados, coletados du
 ## 🧪 Metodologia Estatística
 
 ### 1. **Estatística Descritiva**
-
+![Logo](img/1.png)
 Foram calculadas **medidas de tendência central** (média, mediana) e **dispersão** (desvio padrão) para entender a distribuição do tempo de espera e da satisfação dos clientes. 
 
 - **Média tempo de espera**: ~7 minutos.
