@@ -3,7 +3,7 @@
 ## ❗ Desafio Apresentado
 
 Uma grande rede de supermercados do país, atua com mais de 150 lojas em todo o território nacional, atendendo milhares de clientes diariamente. Com foco na excelência do atendimento, a empresa busca constantemente otimizar processos internos e garantir uma experiência de compra eficiente, rápida e satisfatória para seus clientes.
-Está enfrentando desafios com o atendimento ao cliente. As reclamações mais comuns são sobre o **tempo de espera nas filas dos caixas** e a **disponibilidade de funcionários para ajudar os clientes**. A empresa decidiu realizar uma **pesquisa abrangente** para entender melhor esses problemas e encontrar maneiras de melhorar a **experiência do cliente**.
+A rede está enfrentando desafios com o atendimento ao cliente. As reclamações mais comuns são sobre o **tempo de espera nas filas dos caixas** e a **disponibilidade de funcionários para ajudar os clientes**. A empresa decidiu realizar uma **pesquisa abrangente** para entender melhor esses problemas e encontrar maneiras de melhorar a **experiência do cliente**.
 
 Diante disso, nossa equipe de consultoria foi acionada para realizar uma **análise estatística exploratória** com o objetivo de identificar padrões, gargalos e oportunidades de melhoria com base em dados coletados em múltiplas lojas da rede.
 
@@ -50,7 +50,7 @@ Foram calculadas **medidas de tendência central** (média, mediana) e **dispers
 
 ### 2. **Identificação de Outliers**
 ![Logo](https://github.com/wallacee20/Analise_Estatistica_Experiencia_do_Cliente/blob/main/img/4.png?raw=true)
-### Resultado do Resultado de Outliers
+### Resultado de Outliers
 Nenhum outlier foi detectado nas variáveis analisadas (tempo_espera, satisfacao, funcionarios_turno, clientes_por_hora, politica_nova) usando o método do Intervalo Interquartil (IQR) e Z-score.
 
 ### O que isso significa:
