@@ -65,7 +65,7 @@ Nenhum outlier foi detectado nas variáveis analisadas (tempo_espera, satisfacao
 
 ### Resultado da correlação entre tempo de espera e satisfação
 
-![Logo2](img/2.png)
+![Logo](img/2.png)
 
 - Tivemos uma correlação de -0,92 entre o tempo de espera e a satisfação dos clientes. 
 > A correlação é negativa e forte, o que significa que à medida que o tempo de espera aumenta, a satisfação dos clientes tende a diminuir significativamente.
@@ -121,7 +121,7 @@ Probabilidade de esperar mais de 10 minutos
 Foram analisadas duas amostras:
 - Lojas com **política de atendimento tradicional**.
 - Lojas que implementaram a **nova política de atendimento**.
-![Logo projeto5](img/5png.png)
+![Logo](img/5png.png)
 
 Realizamos testes estatísticos:
 ### **Teste t de Student**
@@ -133,7 +133,8 @@ Realizamos testes estatísticos:
 - Satisfação: p-valor ≈ 0.26
 > Conclusão: também sem diferença significativa — mesmo resultado do teste t.
 
-![Logo projeto5](img/5_a.png)
+![Logo](img/5_a.png)
+<br>
 # Interpretação
 Ambos os testes indicam que a política nova não causou uma mudança significativa em tempo de espera ou satisfação.
 
@@ -146,6 +147,11 @@ Ambos os testes indicam que a política nova não causou uma mudança significat
 - As variações no tempo de espera **impactam diretamente na satisfação**.
 - A **nova política ainda não apresenta resultados conclusivos** em termos de desempenho.
 - **Outliers** apresentaram resultados controlados, garantindo análises consistentes.
+
+---
+
+# Resumo final
+A análise estatística dos dados mostrou que a nova política implementada não teve impacto significativo no tempo de espera nem na satisfação dos clientes. A probabilidade de um cliente esperar mais de 10 minutos é de aproximadamente 14,1%, o que pode indicar um gargalo no atendimento. Embora exista uma tendência de queda na satisfação conforme o tempo de espera aumenta, essa relação é fraca (correlação ≈ -0,10) e pouco explicativa. Recomenda-se explorar outros fatores que podem estar influenciando a satisfação, como qualidade do atendimento, ambiente físico e atendimento digital. além de revisar possíveis melhorias na operação para reduzir o tempo de espera dos casos extremos.
 
 ---
 
