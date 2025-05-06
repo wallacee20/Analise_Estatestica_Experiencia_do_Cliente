@@ -184,7 +184,8 @@ Este projeto foi conduzido por **AlmeidaTI**, especializado em:
 - Modelagem preditiva e suporte à tomada de decisão
 
 📧 **Contato:** wallacee.almeidajj@gmail.com  
-🌐 **LinkedIn:** [LinkedIn]([https://www.linkedin.com/in/wallacee20/](https://www.linkedin.com/in/wallace-almeida-amaral/))
+🌐 **LinkedIn:** [Meu LinkedIn](https://www.linkedin.com/in/wallace-almeida-amaral/)
+
 
 
 ---
