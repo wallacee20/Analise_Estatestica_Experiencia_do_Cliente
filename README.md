@@ -64,7 +64,8 @@ Nenhum outlier foi detectado nas variáveis analisadas (tempo_espera, satisfacao
 ### 3. **Correlação**
 
 ### Resultado da correlação entre tempo de espera e satisfação
-![Logo](img/2.png)
+![Logo2](img/2.png)
+
 - Tivemos uma correlação de -0,92 entre o tempo de espera e a satisfação dos clientes. 
 > A correlação é negativa e forte, o que significa que à medida que o tempo de espera aumenta, a satisfação dos clientes tende a diminuir significativamente.
   O valor de correlação de aproximadamente -0,92 indica uma relação linear bastante consistente entre as variáveis, sugerindo que o tempo de espera exerce influência direta e relevante na percepção de satisfação.
@@ -78,20 +79,41 @@ Nenhum outlier foi detectado nas variáveis analisadas (tempo_espera, satisfacao
 
 Modelamos a relação entre tempo de espera e satisfação por meio de **regressão linear simples**:
 ![Logo](img/3.png)
-- Inclinação: **-0.7657**
-- Intercepto: **8.7873**
 
-> Cada minuto adicional de espera reduz em média **0.76 pontos** na nota de satisfação do cliente.
+### Coeficientes do Modelo:
+- Inclinação (coeficiente angular): -0.7580
+> Isso indica que, a cada minuto adicional de tempo de espera, a satisfação tende a diminuir em aproximadamente 0.758 pontos.
+- Intercepto: 8.811
+> Representa a satisfação estimada quando o tempo de espera é igual a zero.
+### Métricas de Avaliação:
+- R² (coeficiente de determinação): 0.8458
+> Cerca de 84,6% da variância na satisfação pode ser explicada pelo tempo de espera.
+
+- Erro médio quadrático (MSE): 0.9445
+> Mede a média dos quadrados dos erros. Quanto menor esse valor, melhor o ajuste do modelo aos dados.
+## Interpretação:
+- Para cada minuto adicional de espera, a satisfação dos clientes diminui em média 0,76 pontos (dentro da escala utilizada).
+- Esse resultado está alinhado com uma forte correlação negativa observada (por exemplo, -0,92), indicando que quanto maior o tempo de espera, menor tende a ser a satisfação.
+- Apesar da consistência na tendência, o efeito pode ser considerado pequeno do ponto de vista prático. Isso significa que, embora estatisticamente relevante, o impacto real sobre decisões práticas pode ser limitado.
 
 ---
 
 ### 5. **Probabilidade de Espera Excedente**
 
-Com base na distribuição normal do tempo de espera:
+Probabilidade de esperar mais de 10 minutos
+![Logo](img/5png.png)
 
-- Probabilidade de um cliente esperar **mais de 10 minutos**: **20.48%**
+> A probabilidade de um cliente esperar mais de 10 minutos é de aproximadamente 14,06% com base na distribuição normal ajustada.
+  Já segundo o modelo exponencial, essa probabilidade é de 22,72%.
 
-> Este valor indica que **1 em cada 5 clientes** enfrenta um tempo de espera crítico, reforçando a necessidade de intervenção operacional.
+### Interpretação:
+- Com base no modelo normal, isso significa que cerca de 1 a cada 7 clientes poderá esperar mais de 10 minutos.
+
+> Esse valor pode ser considerado aceitável ou preocupante dependendo dos objetivos do seu serviço de atendimento.
+
+Por exemplo, se a sua meta for atender 90% dos clientes em até 10 minutos, o resultado do modelo normal indica que a meta está praticamente sendo atingida.
+
+- Por outro lado, o modelo exponencial mostra um cenário mais pessimista, sugerindo que quase 1 a cada 4 clientes pode esperar mais de 10 minutos — o que evidenciaria uma necessidade de melhoria no atendimento.
 
 ---
 
