@@ -42,7 +42,7 @@ Foram calculadas **medidas de tendência central** (média, mediana) e **dispers
 
 - **Média tempo de espera**: ~7 minutos.
 - **Desvio padrão**: ~2 minutos.
-- **Média satisfação**: ~8.5 pontos.
+- **Média satisfação**: ~3.7 pontos.
 
 ---
 
