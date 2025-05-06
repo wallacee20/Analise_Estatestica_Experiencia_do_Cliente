@@ -41,35 +41,43 @@ A análise foi realizada com base nos seguintes conjuntos de dados, coletados du
 Foram calculadas **medidas de tendência central** (média, mediana) e **dispersão** (desvio padrão) para entender a distribuição do tempo de espera e da satisfação dos clientes. 
 
 - **Média tempo de espera**: ~7 minutos.
-- **Desvio padrão**: ~2 minutos.
+- **Desvio padrão**: ~3 minutos.
 - **Média satisfação**: ~3.7 pontos.
-
+### Interpretação:
+- Os clientes demonstraram, em geral, níveis baixos de satisfação, o que pode estar diretamente relacionado ao tempo elevado de espera.
 ---
 
 ### 2. **Identificação de Outliers**
+![Logo](img/4.png)
+### Resultado do Resultado de Outliers
+Nenhum outlier foi detectado nas variáveis analisadas (tempo_espera, satisfacao, funcionarios_turno, clientes_por_hora, politica_nova) usando o método do Intervalo Interquartil (IQR) e Z-score.
 
-Utilizamos:
+### O que isso significa:
+- Todos os valores das colunas estão dentro do intervalo considerado normal com base na distribuição dos dados.
 
-- **Z-Score**: Para detectar valores com desvios superiores a 3 sigmas da média.
-- **Boxplots**: Para visualização gráfica de valores extremos.
+- Não há dados extremos que possam distorcer as análises estatísticas ou os modelos preditivos.
 
-> **Impacto dos outliers**: Podem distorcer médias e regressões. Em alguns casos, foram considerados ruídos (erros de registro), e removidos para manter a robustez dos resultados.
+- O conjunto de dados é consistente e homogêneo, ao menos do ponto de vista do critério IQR.
 
 ---
 
 ### 3. **Correlação**
 
-Foi medida a **correlação de Pearson** entre `tempo_espera` e `satisfacao`.
+### Resultado da correlação entre tempo de espera e satisfação
+![Logo](img/2.png)
+- Tivemos uma correlação de -0,92 entre o tempo de espera e a satisfação dos clientes. 
+> A correlação é negativa e forte, o que significa que à medida que o tempo de espera aumenta, a satisfação dos clientes tende a diminuir significativamente.
+  O valor de correlação de aproximadamente -0,92 indica uma relação linear bastante consistente entre as variáveis, sugerindo que o tempo de espera exerce influência direta e relevante na percepção de satisfação.
+  Em outras palavras: clientes que esperam mais tendem claramente a se sentir menos satisfeitos, de acordo com os dados analisados.
 
-- Resultado: **-0.0966**  
-> Indica uma **correlação negativa fraca**, ou seja, quanto maior o tempo de espera, **tende a diminuir levemente a satisfação**, embora o efeito seja sutil.
+![Logo](img/2_a.png)
 
 ---
 
 ### 4. **Regressão Linear**
 
 Modelamos a relação entre tempo de espera e satisfação por meio de **regressão linear simples**:
-
+![Logo](img/3.png)
 - Inclinação: **-0.7657**
 - Intercepto: **8.7873**
 
