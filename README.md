@@ -122,7 +122,7 @@ Probabilidade de esperar mais de 10 minutos
 Foram analisadas duas amostras:
 - Lojas com **política de atendimento tradicional**.
 - Lojas que implementaram a **nova política de atendimento**.
-![Logo](https://github.com/wallacee20/Analise_Estatistica_Experiencia_do_Cliente/blob/main/img/5.png?raw=true)
+![Logo projeto](https://github.com/wallacee20/Analise_Estatistica_Experiencia_do_Cliente/blob/main/img/5.png?raw=true)
 
 Realizamos testes estatísticos:
 ### **Teste t de Student**
