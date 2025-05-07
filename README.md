@@ -37,7 +37,7 @@ A análise foi realizada com base nos seguintes conjuntos de dados, coletados du
 ## 🧪 Metodologia Estatística
 
 ### 1. **Estatística Descritiva**
-![Logo](https://github.com/wallacee20/Analise_Estatistica_Experiencia_do_Cliente/blob/main/img/1.png?raw=true)
+![Logo-projeto](https://github.com/wallacee20/Analise_Estatistica_Experiencia_do_Cliente/blob/main/img/1.png?raw=true)
 
 Foram calculadas **medidas de tendência central** (média, mediana) e **dispersão** (desvio padrão) para entender a distribuição do tempo de espera e da satisfação dos clientes. 
 
@@ -122,7 +122,7 @@ Probabilidade de esperar mais de 10 minutos
 Foram analisadas duas amostras:
 - Lojas com **política de atendimento tradicional**.
 - Lojas que implementaram a **nova política de atendimento**.
-![Logo projeto](https://github.com/wallacee20/Analise_Estatistica_Experiencia_do_Cliente/blob/main/img/5.png?raw=true)
+![Logo-projeto](https://github.com/wallacee20/Analise_Estatistica_Experiencia_do_Cliente/blob/main/img/5.png?raw=true)
 
 Realizamos testes estatísticos:
 ### **Teste t de Student**
